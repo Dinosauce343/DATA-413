@@ -1,0 +1,87 @@
+---
+title: "Astronauts Assignment"
+output: html_document
+date: "2024-02-19"
+---
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+NASA Astronauts
+The following R coding assignment uses demographics and space
+flight specific information for NASA Astronauts from 1959 - 2013
+as a data source. You are to use R, tidyverse, and ggplot coding
+to produce correct output for the following questions and 
+directions.
+Please submit this assignment on Canvas by generating an Rmarkdown file and a knitted Word file or an
+a knitted Word file or HTML.
+library(tidyverse)
+# 1 Use and show r code to import the Astronauts csv file.
+# 2 Use and show r code to determine the number of Astronauts who are
+# in the data table and the number of descriptive column variables.
+# 3 Use and show r code to produce the number and the
+# names of only the female Astronauts.  
+# 4 Use and show R coding to produce a table that shows the
+# military rank and the military branch of each Female Astronaut.
+# 5 Some of the Astronauts in the data table are listed as Active 
+# and others are not. Use and show r code to determine how many 
+# Female Astronauts were currently active when this data set was
+# constructed.
+# 6 Use and show ggplot coding to produce a bar graph that compares
+# space walks for Male and Female Astronauts.
+
+
+
+
+
+
+
+# 7 Use and show r code to produce the table below that lists all
+# Female Astronauts who have registered one or more Space Walks.
+  # A tibble: 11 × 4
+   Name                           Gender Space…¹     n
+   <chr>                          <chr>    <dbl> <int>
+ 1 Heidemarie M. Stefanyshyn-Pip… Female       2     1
+ 2 Kathleen Rubins                                Female       2     1
+ 3 Kathryn C. Thornton                         Female       3     1
+ 4 Kathryn D. Sullivan                           Female       1     1
+ 5 Linda M. Godwin                              Female       2     1
+ 6 Nicole P. Stott                                   Female       1     1
+ 7 Peggy A. Whitson                              Female       7     1
+ 8 Sunita L. Williams                              Female       7     1
+ 9 Susan J. Helms                                   Female       1     1
+10 Tamara E. Jernigan                          Female       1     1
+11 Tracy E. Caldwell (Dyson)               Female       3     1
+# … with abbreviated variable name ¹​`Space Walks`
+# 8  Use and show ggplot coding to produce a box plot in order to 
+# investigate outliers and the overall distribution for Space
+# Walks for males and female astronauts combined. Does the boxplot 
+# indicate that there are outliers? Using the boxplot, estimate the
+# IQR for the data.
+# 9 Use and show ggplot coding to produce side by side box plots
+# in order to investigate outliers and the overall distributions
+# for Space Walks for males and female astronauts separately.  
+
+
+
+
+# 10 The histogram displayed below shows that the Space Walks data
+# is generally skewed right for all Astronauts (males and females).
+# Use and show R code that will produce the histogram displayed.
+
+
+# 11 Use and show R coding to calculate the average(mean) of
+# Space Walks for Male and Female Astronauts separately.
+# 12 Does a linear relationship exist between Space Flights and
+# Space Walks ? Investigate by using and showing ggplot coding to
+# produce a scatter plot.  Comment on your findings based on the
+# configuration of the scatter plot data points.
+# 13 Mae C. Jemison was the first African American female Astronaut.
+# Use and show R code that will output her Undergraduate Major,
+# Graduate Major, and Alma Mater.
+# 14 Use and show R code to determine how many female
+# Astronauts were members of the US Air Force or retired
+# from the US Air Force at the time that the data set was
+# generated.
